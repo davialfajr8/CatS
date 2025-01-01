@@ -884,9 +884,6 @@ def relay_inner(ev, *, caption_text=None, signed=False, tripcode=False, ksigned=
 	# relay message to all other users
 	logging.debug("relay(): msid=%d reply_msid=%r", msid, reply_msid)
 	PESAN = """
-Peringatannya gini aja:
-
-
 Hai, Halo, apa kabar {nama}?! 🙈
 (Kamu harus membalas dengan pesan suara! Jika kamu mengirim pesan teks, Bot bakal terus kasih peringatan ini, dan pesanmu bakal nyangkut di udara alias nggak terkirim ke semua orang. 😜)
 
